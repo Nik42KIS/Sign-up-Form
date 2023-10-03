@@ -1,0 +1,23 @@
+
+
+.wrapper{
+    display: flex;
+
+}
+
+.aside_part{
+    height: 100vh;
+    width: 45vw;
+    background-image: url('./images/parrot.jpg');
+    
+    background-size: cover;
+}
+
+main{
+    width: 55vw;
+
+}
+
+.form-control{
+    width: 200px;
+}
