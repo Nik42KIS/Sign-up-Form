@@ -11,7 +11,9 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap"
+      rel="stylesheet" />
     <script src="app.js" defer></script>
   </head>
   <body>
@@ -24,45 +26,91 @@
       </div>
       <main class="main">
         <div class="lead">
-            <p>
-
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illo quae odit id saepe
-                impedit, facilis vero. Nostrum tenetur unde error. Sed cumque quaerat et nemo ducimus
-                officia totam maxime.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
+          <p>
+            Lorem ipsum <i>dolor</i> sit amet consectetur adipisicing elit. Vitae illo quae odit id saepe
+            impedit, facilis vero. Nostrum <i>tenetur</i> unde error. Sed cumque quaerat et nemo ducimus
+            officia <i>totam</i> maxime.
+          </p>
+          <p>Lorem ipsum dolor sit <i>amet</i>  consectetur adipisicing elit.</p>
         </div>
         <form class="needs-validation" id="sign-up" action="#" novalidate>
           <h2>Let's do this</h2>
           <fieldset class="field">
             <div>
-                <label class="form-label" for="first_name">FIRST NAME</label>
-                <input required class="form-control" id="first_name" name="first_name" type="text" />
-
+                <div class="position-relative">
+              <label class="form-label" for="first_name">FIRST NAME</label>
+              <input required class="form-control" id="first_name" name="first_name" type="text" />
+              <div class="invalid-tooltip">
+                Please enter your name.
+              </div>
+            </div>
+              <div class="position-relative">
                 <label class="form-label" for="email">EMAIL</label>
-                <input required class="form-control" placeholder="jhon@email.com" id="email" name="email" type="email" />
+                <input
+                  required
+                  class="form-control"
+                  placeholder="jhon@email.com"
+                  id="email"
+                  name="email"
+                  type="email" />
+                  <div class="invalid-tooltip">
+                    Your email should contain "@".
+                  </div>
+              </div>
 
+              <div class="position-relative">
                 <label class="form-label" for="password">PASSWORD</label>
-                <input required class="form-control" id="password" name="password" type="password" />
-          </div>
-          <div>
+                <input
+                  required
+                  class="form-control"
+                  id="password"
+                  name="password"
+                  type="password" />
+                  <div class="invalid-tooltip">
+                    Please choose a unique and valid password.
+                  </div>
+              </div>
+            </div>
+            <div>
+              <div class="position-relative">
                 <label class="form-label" for="last_name">LAST NAME</label>
                 <input required class="form-control" id="last_name" name="last_name" type="text" />
-
+                <div class="invalid-tooltip">
+                    Please enter your last name.
+                  </div>
+            </div>
+             
+              <div class="position-relative">
                 <label class="form-label" for="phone_number">PHONE NUMBER</label>
-                <input required class="form-control" id="phone_number"placeholder="+375 ** *** 21" name="phone_number" type="tel" />
+                <input
+                  required
+                  class="form-control"
+                  id="phone_number"
+                  placeholder="+375 ** *** 21"
+                  name="phone_number"
+                  type="tel" />
+                  <div class="invalid-tooltip">
+                    Please type valid phone number.
+                  </div>
+              </div>
 
+              <div class="position-relative">
                 <label class="form-label" for="confirm_password">CONFIRM PASSWORD</label>
-                <input required class="form-control" id="confirm_password" name="confirm_password" type="text" />
-              
-          </div>
+                <input
+                  required
+                  class="form-control"
+                  id="confirm_password"
+                  name="confirm_password"
+                  type="text" />
+                  <div class="invalid-tooltip">
+                    You should confirm your password.
+                  </div>
+              </div>
+            </div>
           </fieldset>
-   
         </form>
         <button form="sign-up" class="btn btn-primary">Create Account</button>
-       <p class="bottom_info">Already have an account? <a href="#">Log in</a></p>  
+        <p class="bottom_info">Already have an account? <a href="#">Log in</a></p>
       </main>
     </div>
     <script
