@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 
 /* picture by Rohan Gupta */
 .wrapper{
@@ -23,11 +24,12 @@
     height: 90px;
 }
 h1{
+    font-family: Yesteryear , sans-serif;
     position: absolute;
     top: 40px;
     color: #fdfdfd;
     text-align: center;
-    height: 120px;
+    height: 110px;
     width: 100%;
     background-color: rgba(0, 0, 0, .3);
     font-size: 80px;
@@ -65,4 +67,10 @@ form{
 
 .btn{
     margin-left: 40px;
+
+}
+
+.bottom_info{
+    font-weight: bold;
+    margin-top: 10px;
 }

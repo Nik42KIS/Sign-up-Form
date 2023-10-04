@@ -11,6 +11,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
     <script src="app.js" defer></script>
   </head>
   <body>
@@ -18,7 +19,7 @@
       <div class="aside_part">
         <h1>
           <img class="logo" src="./images/odin-lined.png" alt="logo" />
-          Logo
+          Look at this
         </h1>
       </div>
       <main class="main">
@@ -38,23 +39,24 @@
           <fieldset class="field">
             <div>
                 <label class="form-label" for="first_name">FIRST NAME</label>
-                <input class="form-control" id="first_name" name="first_name" type="text" />
+                <input required class="form-control" id="first_name" name="first_name" type="text" />
 
                 <label class="form-label" for="email">EMAIL</label>
-                <input class="form-control" id="email" name="email" type="email" />
+                <input required class="form-control" placeholder="jhon@email.com" id="email" name="email" type="email" />
 
                 <label class="form-label" for="password">PASSWORD</label>
-                <input class="form-control" id="password" name="password" type="password" />
+                <input required class="form-control" id="password" name="password" type="password" />
           </div>
           <div>
                 <label class="form-label" for="last_name">LAST NAME</label>
-                <input class="form-control" id="last_name" name="last_name" type="text" />
+                <input required class="form-control" id="last_name" name="last_name" type="text" />
 
                 <label class="form-label" for="phone_number">PHONE NUMBER</label>
-                <input class="form-control" id="phone_number" name="phone_number" type="tel" />
+                <input required class="form-control" id="phone_number"placeholder="+375 ** *** 21" name="phone_number" type="tel" />
 
                 <label class="form-label" for="confirm_password">CONFIRM PASSWORD</label>
-                <input class="form-control" id="confirm_password" name="confirm_password" type="text" />
+                <input required class="form-control" id="confirm_password" name="confirm_password" type="text" />
+              
           </div>
           </fieldset>
    
