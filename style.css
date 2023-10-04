@@ -1,5 +1,5 @@
 
-
+/* picture by Rohan Gupta */
 .wrapper{
     display: flex;
     
@@ -10,26 +10,31 @@
 }
 
 .aside_part{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
     height: 100vh;
-    width: 45vw;
+    width: 35vw;
     background-image: url('./images/parrot.jpg');
     background-size: cover;
 }
-
+.logo{
+    height: 90px;
+}
 h1{
+    position: absolute;
+    top: 40px;
     color: #fdfdfd;
     text-align: center;
-    height: 100px;
+    height: 120px;
     width: 100%;
     background-color: rgba(0, 0, 0, .3);
     font-size: 80px;
 }
 
 main{
-    width: 55vw;
+    width: 65vw;
     background-color: #f7f7f7;
     
 }
