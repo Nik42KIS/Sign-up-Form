@@ -1,76 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 
-/* picture by Rohan Gupta */
-.wrapper{
-    display: flex;
-    
+
+.wrapper {
+  display: flex;
 }
 
-.lead, form,.bottom_info{
-    padding-left: 40px;  
+.lead,
+form,
+.bottom_info {
+  padding-left: 40px;
 }
 
-.aside_part{
-    position: relative;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    height: 100vh;
-    width: 35vw;
-    background-image: url('./images/parrot.jpg');
-    background-size: cover;
+.aside_part {
+  position: relative;
+  height: 100vh;
+  width: 35vw;
+  /* picture by Rohan Gupta */
+  background-image: url('./images/parrot.jpg');
+  background-size: cover;
 }
-.logo{
-    height: 90px;
+.logo {
+  height: 90px;
 }
-h1{
-    font-family: Yesteryear , sans-serif;
-    position: absolute;
-    top: 40px;
-    color: #fdfdfd;
-    text-align: center;
-    height: 110px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .3);
-    font-size: 80px;
+h1 {
+  font-family: Yesteryear, sans-serif;
+  position: absolute;
+  top: 40px;
+  color: #fdfdfd;
+  text-align: center;
+  height: 110px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 80px;
 }
 
-main{
-    width: 65vw;
-    background-color: #f7f7f7;
-    
+main {
+  width: 65vw;
+  background-color: #f7f7f7;
 }
 
-.form-control{
-    width: 300px;
+.form-control {
+  width: 300px;
 }
-form{
-    background-color: white;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+form {
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
-.field{
-    display: flex;
-    gap: 100px;
-
-}
-
-
-
-.lead{
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 70px;
-    
+.field {
+  display: flex;
+  gap: 100px;
 }
 
-.btn{
-    margin-left: 40px;
-
+.lead {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
 
-.bottom_info{
-    font-weight: bold;
-    margin-top: 10px;
+.btn {
+  margin-left: 40px;
+}
+
+.bottom_info {
+  font-weight: bold;
+  margin-top: 10px;
 }
