@@ -18,6 +18,13 @@ form,
   /* picture by Rohan Gupta */
   background-image: url('./images/parrot.jpg');
   background-size: cover;
+  
+}
+.copyright{
+    text-align: center;
+    position: relative;
+    top: 700px;
+    color: #f2f0f0c1;
 }
 .logo {
   height: 90px;
@@ -26,24 +33,31 @@ h1 {
   font-family: Yesteryear, sans-serif;
   position: absolute;
   top: 40px;
-  color: #fdfdfd;
+  color: aquamarine;
   text-align: center;
   height: 110px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 80px;
+  
 }
 
 main {
   width: 65vw;
-  background-color: #f7f7f7;
+  background-color: #a9b9cf;
 }
+h2{
+    width: 200px;
+ 
+   font-weight: bold;
+}
+
 
 .form-control {
   width: 300px;
 }
 form {
-  background-color: white;
+  background-color: rgb(133, 160, 190);
   padding-top: 30px;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -52,7 +66,12 @@ form {
   display: flex;
   gap: 100px;
 }
-
+.form-control{
+    background-color: #a9b9cf ;
+}
+.form-control:focus{
+    background-color: aquamarine;
+}
 .lead {
   font-weight: bold;
   margin-top: 30px;
@@ -61,6 +80,7 @@ form {
 
 .btn {
   margin-left: 40px;
+  color: rgb(8, 8, 8);
 }
 
 .bottom_info {
